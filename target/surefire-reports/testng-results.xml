@@ -2,88 +2,88 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-22T06:29:08 IST" name="Surefire suite" finished-at="2024-09-22T06:30:05 IST" duration-ms="56778">
+  <suite started-at="2024-09-22T06:10:12 IST" name="Surefire suite" finished-at="2024-09-22T06:10:58 IST" duration-ms="46109">
     <groups>
     </groups>
-    <test started-at="2024-09-22T06:29:08 IST" name="Surefire test-2" finished-at="2024-09-22T06:29:42 IST" duration-ms="34173">
+    <test started-at="2024-09-22T06:10:12 IST" name="Surefire test-2" finished-at="2024-09-22T06:10:43 IST" duration-ms="30962">
       <class name="test.BrowserStackTest">
-        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@215a34b4]" started-at="2024-09-22T06:29:09 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:29:22 IST" duration-ms="13639" status="PASS">
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@4eb30d44]" started-at="2024-09-22T06:10:12 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:10:24 IST" duration-ms="11459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverInstance -->
-        <test-method signature="test1()[pri:0, instance:test.BrowserStackTest@215a34b4]" started-at="2024-09-22T06:29:22 IST" name="test1" finished-at="2024-09-22T06:29:23 IST" duration-ms="896" status="PASS">
+        <test-method signature="test1()[pri:0, instance:test.BrowserStackTest@4eb30d44]" started-at="2024-09-22T06:10:24 IST" name="test1" finished-at="2024-09-22T06:10:24 IST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@215a34b4]" started-at="2024-09-22T06:29:24 IST" name="closeBrowser" finished-at="2024-09-22T06:29:27 IST" duration-ms="2999" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@4eb30d44]" started-at="2024-09-22T06:10:24 IST" name="closeBrowser" finished-at="2024-09-22T06:10:27 IST" duration-ms="2454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@215a34b4]" started-at="2024-09-22T06:29:28 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:29:36 IST" duration-ms="8773" status="PASS">
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@4eb30d44]" started-at="2024-09-22T06:10:27 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:10:39 IST" duration-ms="12369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverInstance -->
-        <test-method signature="test2()[pri:0, instance:test.BrowserStackTest@215a34b4]" started-at="2024-09-22T06:29:36 IST" name="test2" finished-at="2024-09-22T06:29:38 IST" duration-ms="1653" status="PASS">
+        <test-method signature="test2()[pri:0, instance:test.BrowserStackTest@4eb30d44]" started-at="2024-09-22T06:10:39 IST" name="test2" finished-at="2024-09-22T06:10:40 IST" duration-ms="1383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@215a34b4]" started-at="2024-09-22T06:29:39 IST" name="closeBrowser" finished-at="2024-09-22T06:29:42 IST" duration-ms="3105" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@4eb30d44]" started-at="2024-09-22T06:10:41 IST" name="closeBrowser" finished-at="2024-09-22T06:10:43 IST" duration-ms="2448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.BrowserStackTest -->
     </test> <!-- Surefire test-2 -->
-    <test started-at="2024-09-22T06:29:08 IST" name="Surefire test-0" finished-at="2024-09-22T06:29:43 IST" duration-ms="34411">
+    <test started-at="2024-09-22T06:10:12 IST" name="Surefire test-0" finished-at="2024-09-22T06:10:47 IST" duration-ms="34637">
       <class name="test.BrowserStackTest">
-        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@30331109]" started-at="2024-09-22T06:29:09 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:29:21 IST" duration-ms="12697" status="PASS">
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@3a2b2322]" started-at="2024-09-22T06:10:12 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:10:26 IST" duration-ms="13707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverInstance -->
-        <test-method signature="test1()[pri:0, instance:test.BrowserStackTest@30331109]" started-at="2024-09-22T06:29:21 IST" name="test1" finished-at="2024-09-22T06:29:23 IST" duration-ms="1885" status="PASS">
+        <test-method signature="test1()[pri:0, instance:test.BrowserStackTest@3a2b2322]" started-at="2024-09-22T06:10:26 IST" name="test1" finished-at="2024-09-22T06:10:27 IST" duration-ms="879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@30331109]" started-at="2024-09-22T06:29:24 IST" name="closeBrowser" finished-at="2024-09-22T06:29:27 IST" duration-ms="2984" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@3a2b2322]" started-at="2024-09-22T06:10:27 IST" name="closeBrowser" finished-at="2024-09-22T06:10:29 IST" duration-ms="2221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@30331109]" started-at="2024-09-22T06:29:28 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:29:37 IST" duration-ms="8998" status="PASS">
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@3a2b2322]" started-at="2024-09-22T06:10:29 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:10:43 IST" duration-ms="13677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverInstance -->
-        <test-method signature="test2()[pri:0, instance:test.BrowserStackTest@30331109]" started-at="2024-09-22T06:29:37 IST" name="test2" finished-at="2024-09-22T06:29:39 IST" duration-ms="2093" status="PASS">
+        <test-method signature="test2()[pri:0, instance:test.BrowserStackTest@3a2b2322]" started-at="2024-09-22T06:10:43 IST" name="test2" finished-at="2024-09-22T06:10:45 IST" duration-ms="1630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@30331109]" started-at="2024-09-22T06:29:40 IST" name="closeBrowser" finished-at="2024-09-22T06:29:42 IST" duration-ms="2450" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@3a2b2322]" started-at="2024-09-22T06:10:45 IST" name="closeBrowser" finished-at="2024-09-22T06:10:47 IST" duration-ms="1999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.BrowserStackTest -->
     </test> <!-- Surefire test-0 -->
-    <test started-at="2024-09-22T06:29:08 IST" name="Surefire test-1" finished-at="2024-09-22T06:30:05 IST" duration-ms="56778">
+    <test started-at="2024-09-22T06:10:12 IST" name="Surefire test-1" finished-at="2024-09-22T06:10:58 IST" duration-ms="46109">
       <class name="test.BrowserStackTest">
-        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@985696]" started-at="2024-09-22T06:29:09 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:29:32 IST" duration-ms="23622" status="PASS">
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@7ce7e83c]" started-at="2024-09-22T06:10:12 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:10:29 IST" duration-ms="16929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverInstance -->
-        <test-method signature="test1()[pri:0, instance:test.BrowserStackTest@985696]" started-at="2024-09-22T06:29:32 IST" name="test1" finished-at="2024-09-22T06:29:34 IST" duration-ms="1867" status="PASS">
+        <test-method signature="test1()[pri:0, instance:test.BrowserStackTest@7ce7e83c]" started-at="2024-09-22T06:10:29 IST" name="test1" finished-at="2024-09-22T06:10:30 IST" duration-ms="920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@985696]" started-at="2024-09-22T06:29:35 IST" name="closeBrowser" finished-at="2024-09-22T06:29:37 IST" duration-ms="2690" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@7ce7e83c]" started-at="2024-09-22T06:10:30 IST" name="closeBrowser" finished-at="2024-09-22T06:10:33 IST" duration-ms="2608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@985696]" started-at="2024-09-22T06:29:38 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:29:56 IST" duration-ms="18446" status="PASS">
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:test.BrowserStackTest@7ce7e83c]" started-at="2024-09-22T06:10:33 IST" name="initiateDriverInstance" finished-at="2024-09-22T06:10:49 IST" duration-ms="16289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverInstance -->
-        <test-method signature="test2()[pri:0, instance:test.BrowserStackTest@985696]" started-at="2024-09-22T06:29:56 IST" name="test2" finished-at="2024-09-22T06:30:02 IST" duration-ms="5491" status="PASS">
+        <test-method signature="test2()[pri:0, instance:test.BrowserStackTest@7ce7e83c]" started-at="2024-09-22T06:10:49 IST" name="test2" finished-at="2024-09-22T06:10:56 IST" duration-ms="6660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@985696]" started-at="2024-09-22T06:30:02 IST" name="closeBrowser" finished-at="2024-09-22T06:30:05 IST" duration-ms="2585" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.BrowserStackTest@7ce7e83c]" started-at="2024-09-22T06:10:56 IST" name="closeBrowser" finished-at="2024-09-22T06:10:58 IST" duration-ms="2120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

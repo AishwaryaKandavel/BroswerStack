@@ -12,3 +12,21 @@
 05:07:53.581 [Worker-54: Launching BrowserStackIntegrationJenkins_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 05:07:53.582 [Worker-54: Launching BrowserStackIntegrationJenkins_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
 05:15:26.773 [Worker-61: Launching Executing test in C__Users_karth_newWorkspace_BrowserStackIntegrationJenkins] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+05:53:23.588 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+05:53:23.588 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:53:23.588 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/browserStack
+05:53:23.588 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+05:53:23.588 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:53:23.588 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/browserStack
+05:53:24.815 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+05:53:24.815 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:53:24.822 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/browserStack
+05:53:24.823 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+05:53:24.823 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:53:24.825 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/browserStack
+05:53:25.698 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+05:53:25.698 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:53:25.698 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/browserStack
+05:53:25.698 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+05:53:25.698 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:53:25.706 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/browserStack

@@ -28,3 +28,19 @@
 05:16:44.412 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 05:16:50.449 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/796ee3d1a933b9c12a1391c03eae909a20276234
 05:16:50.449 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+06:16:52.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.0
+06:16:52.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+06:16:52.620 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\karth\\eclipse-workspace\\BrowserStackWithJenkins, localrepository=C\:\\Users\\karth\\.m2\\repository}
+06:16:52.620 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\browserstack.yml
+06:16:52.717 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+06:16:52.733 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+06:16:53.159 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+06:16:56.408 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+06:17:01.263 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+06:17:12.276 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+06:18:22.565 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/5nj30k6z06lxghxrwjwsttpmajtfamejvvftlwwn to view build report, insights, and many more debugging information all at one place!
+
+06:18:22.565 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+06:18:29.081 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d
+06:18:29.081 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+06:18:29.759 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - Generated browserstack build artifacts at ./browserstack-artifacts/

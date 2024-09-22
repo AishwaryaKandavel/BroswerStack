@@ -2024,3 +2024,693 @@
 05:16:48.021 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"mwqXXMNyWFzcpeJYZqaM","userName":"aishwaryakandave_osuKTX","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"e03087a1-5d2b-44c4-8813-9623f8d714c1","buildIdentifier":"2","testhub_uuid":"nhsmr9cqrqtxn1ts8qhvo9vhy3v0nyw6frz5jxmd","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"Aishwarya","measures":{"local:start":5749,"sdk:setup":11656,"local:stop":3346},"productUsage":{"testObservability":{"buildHashedId":"nhsmr9cqrqtxn1ts8qhvo9vhy3v0nyw6frz5jxmd","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":12,"failedCount":0,"triggeredCount":12},"finished":{"triggeredCount":12,"failedCount":0,"errors":[],"sentCount":12},"passed":{"errors":[],"sentCount":12,"failedCount":0,"triggeredCount":12}},"logEvents":{"errors":[],"sentCount":54,"failedCount":0,"triggeredCount":54,"log":{"errors":[],"sentCount":54,"failedCount":0,"triggeredCount":54}},"testEvents":{"started":{"errors":[],"sentCount":6,"failedCount":0,"triggeredCount":6},"finished":{"triggeredCount":6,"failedCount":0,"errors":[],"sentCount":6},"passed":{"errors":[],"sentCount":6,"failedCount":0,"triggeredCount":6}},"batchEvents":{"triggeredCount":9,"failedCount":0,"errors":[],"sentCount":9},"cbtSessionEvents":{"errors":[],"sentCount":0,"failedCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"AUTO","browserStackLocalOptions":{"localIdentifier":"22_Sep_515_Aishwarya_sdlN","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"capabilities":{},"browser":"Chrome","device":null,"browserVersion":"120.0","osVersion":"10","os":"Windows","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"browser":"Firefox","device":null,"browserVersion":"latest","osVersion":"11","os":"Windows","platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Firefox"},"platformString":"Windows, 11, Firefox, latest","customVariables":"****"},{"capabilities":{},"browser":"Edge","device":null,"browserVersion":"latest","osVersion":"Sequoia","os":"OS X","platformCaps":{"os":"OS X","osVersion":"Sequoia","browserVersion":"latest","browserName":"Edge"},"platformString":"OS X, Sequoia, Edge, latest","customVariables":"****"}],"parallelsPerPlatform":4,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"bstack-demo","os":"Windows 11","languageVersion":"17.0.7","appiumVersion":"","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":3134,"retransformClasses":3134},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.24.0","language_framework":"java_testng","detectedFramework":"none","testOrchestration":{"abortBuildOnFailure":{"userConfig":{},"enabled":false},"retryTestsOnFailure":{"userConfig":{},"enabled":false}},"detectedSeleniumVersion":"4.23.0","seleniumVersion":"4.23.0"}}
 05:16:48.507 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
 05:16:50.453 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+06:16:52.620 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\karth\\eclipse-workspace\\BrowserStackWithJenkins, localrepository=C\:\\Users\\karth\\.m2\\repository}
+06:16:53.143 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+06:16:53.143 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+06:16:53.159 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire-20240922061650277_1tmp
+06:16:53.159 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire-20240922061650277_1tmp
+06:16:53.159 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.24.0
+06:16:53.167 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+06:16:53.167 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+06:16:53.167 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+06:16:53.167 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+06:16:53.670 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+06:16:53.875 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 205ms
+06:16:54.966 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1059ms
+06:16:55.898 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 917ms
+06:16:55.920 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+06:16:55.950 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"mwqXXMNyWFzcpeJYZqaM","userName":"aishwaryakandave_osuKTX-jenkins","event_properties":{"product":"[automate, observability]","buildName":"jenkins-BrowserStack-2","os":"Windows 11","languageVersion":"21.0.4","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"2c10b681-1c56-4909-b7c5-ff51379b9478","buildIdentifier":"null","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.24.0","hostname":"Aishwarya","language_framework":"java_testng","detectedFramework":"none","detectedSeleniumVersion":"4.23.0","seleniumVersion":"4.23.0"}}
+06:16:56.408 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+06:17:00.281 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+06:17:00.281 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1378
+06:17:01.263 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:01.263 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : 5nj30k6z06lxghxrwjwsttpmajtfamejvvftlwwn
+06:17:01.263 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+06:17:01.270 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 22_Sept_616_Aishwarya_C9vd
+06:17:17.584 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 12 and number of platforms - 3
+06:17:17.964 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.964 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.981 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.981 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.981 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.989 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.989 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.989 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.989 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.989 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.999 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.999 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:17.999 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.005 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.005 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.005 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.051 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.051 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.051 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.051 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.051 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.069 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.069 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.069 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.069 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.069 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.081 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.095 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.095 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.095 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.095 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.095 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.103 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.111 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.131 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.131 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:18.135 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-22T00:47:18.135256500Z][ OBSERVABILITY ] Processing Logs patching stream
+06:17:18.329 [initiateDriverInstance@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:18.329 [initiateDriverInstance@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:18.329 [initiateDriverInstance@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:18.329 [initiateDriverInstance@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:18.329 [initiateDriverInstance@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:18.329 [initiateDriverInstance@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:18.470 [initiateDriverInstance@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:18.470 [initiateDriverInstance@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:18.487 [initiateDriverInstance@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:18.495 [initiateDriverInstance@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:18.495 [initiateDriverInstance@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:18.499 [initiateDriverInstance@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:18.515 [initiateDriverInstance@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:18.515 [initiateDriverInstance@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:18.515 [initiateDriverInstance@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:19.978 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1726966039978
+
+06:17:19.990 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 51
+
+06:17:19.991 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 13005
+06:17:20.227 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:20.229 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:20.229575300Z][ TESTHUB ] Batch event successfull!
+
+06:17:21.984 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+06:17:23.116 [initiateDriverInstance@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:23.131 [initiateDriverInstance@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:23.140 [initiateDriverInstance@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:23.140 [initiateDriverInstance@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 62
+06:17:23.156 [initiateDriverInstance@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 63
+06:17:23.187 [initiateDriverInstance@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:23.321 [initiateDriverInstance@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 61
+06:17:23.341 [initiateDriverInstance@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:23.418 [initiateDriverInstance@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:26.041 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4057
+
+06:17:30.040 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+06:17:31.539 [initiateDriverInstance@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+06:17:31.539 [initiateDriverInstance@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+06:17:31.572 [initiateDriverInstance@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+06:17:31.572 [initiateDriverInstance@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+06:17:31.572 [initiateDriverInstance@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:31.572 [initiateDriverInstance@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:31.572 [initiateDriverInstance@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:31.572 [initiateDriverInstance@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:31.825 [Forwarding maximizeCurrentWindow on session 5c581e7809eb185cba11830d696782d1b030bb83 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1043)
+	at test.BrowserStackTest.initiateDriverInstance(BrowserStackTest.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+06:17:32.051 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2011
+
+06:17:32.108 [Surefire test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: test.BrowserStackTest 
+06:17:32.108 [Surefire test-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:32.427 [Surefire test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:32.429 [Surefire test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:32.487 [Surefire test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: test.BrowserStackTest 
+06:17:32.487 [Surefire test-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:32.692 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:32.692 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:32.692 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:32.692 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:32.778 [Surefire test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:32.782 [Surefire test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:32.835 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:32.835 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:32.835 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:32.835 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:32.835 [Surefire test-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+06:17:32.852 [Surefire test-2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+06:17:33.336 [test1@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:33.386 [test1@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:33.386 [test1@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:33.581 [test1@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:33.581 [test1@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:33.621 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:33.621 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:33.621 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:33.621 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:33.637 [test1@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:33.637 [test1@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: test.BrowserStackTest 
+06:17:33.637 [test1@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:33.961 [test1@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:33.961 [test1@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:34.033 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:34.033 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:34.033 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:34.033 [test1@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:34.033 [test1@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+06:17:34.080 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:34.080 [closeBrowser@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:34.236 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:34.236 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:34.258 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:34.258 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:34.258 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:34.258 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:34.258 [closeBrowser@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:34.258 [closeBrowser@2] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+06:17:35.953 [test1@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:35.977 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3926
+
+06:17:35.977 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 7
+
+06:17:35.993 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 11334
+06:17:36.009 [test1@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:36.009 [test1@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:36.135 [test1@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:36.137 [test1@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:36.218 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:36.218 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:36.218 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:36.218 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:36.218 [test1@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:36.218 [test1@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: test.BrowserStackTest 
+06:17:36.218 [test1@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:36.238 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:36.238 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:36.238300600Z][ TESTHUB ] Batch event successfull!
+
+06:17:36.318 [test1@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:36.318 [test1@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:36.341 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:36.341 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:36.341 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:36.341 [test1@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:36.341 [test1@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+06:17:36.388 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:36.388 [closeBrowser@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:36.467 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:36.467 [closeBrowser@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:36.493 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:36.495 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:36.498 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:36.498 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:36.498 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:36.498 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:36.498 [closeBrowser@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:36.498 [closeBrowser@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+06:17:36.616 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:36.616 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:36.616 [closeBrowser@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:36.624 [initiateDriverInstance@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:36.624 [initiateDriverInstance@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:36.829 [initiateDriverInstance@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:36.829 [initiateDriverInstance@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:36.829 [initiateDriverInstance@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:37.716 [initiateDriverInstance@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:37.716 [initiateDriverInstance@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 61
+06:17:37.716 [initiateDriverInstance@2] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@2170f675
+06:17:37.716 [initiateDriverInstance@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+06:17:37.716 [initiateDriverInstance@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:38.017 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2040
+
+06:17:38.017 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+06:17:38.017 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 8295
+06:17:38.517 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:38.517 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:38.517512600Z][ TESTHUB ] Batch event successfull!
+
+06:17:38.649 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:38.649 [closeBrowser@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:38.905 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:38.905 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:38.921 [closeBrowser@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:38.921 [initiateDriverInstance@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:38.921 [initiateDriverInstance@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:39.174 [initiateDriverInstance@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:39.174 [initiateDriverInstance@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:39.174 [initiateDriverInstance@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:40.340 [initiateDriverInstance@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:40.340 [initiateDriverInstance@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 63
+06:17:40.340 [initiateDriverInstance@0] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@62d11ba6
+06:17:40.340 [initiateDriverInstance@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+06:17:40.356 [initiateDriverInstance@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:41.984 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3967
+
+06:17:41.984 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+06:17:41.984 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1731
+06:17:42.598 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:42.598 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:42.598429100Z][ TESTHUB ] Batch event successfull!
+
+06:17:44.651 [initiateDriverInstance@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+06:17:44.651 [initiateDriverInstance@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+06:17:44.651 [initiateDriverInstance@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:44.651 [initiateDriverInstance@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:44.665 [Forwarding maximizeCurrentWindow on session 6c6f343d7d611bd9e2a431594eda728d81319b3a to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1043)
+	at test.BrowserStackTest.initiateDriverInstance(BrowserStackTest.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+06:17:45.398 [Surefire test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: test.BrowserStackTest 
+06:17:45.398 [Surefire test-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:45.498 [Surefire test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:45.510 [Surefire test-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:45.514 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:45.514 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:45.514 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:45.514 [Surefire test-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:45.514 [Surefire test-2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+06:17:45.986 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4002
+
+06:17:45.987 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+06:17:45.988 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2163
+06:17:46.098 [initiateDriverInstance@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+06:17:46.098 [initiateDriverInstance@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+06:17:46.109 [initiateDriverInstance@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:46.109 [initiateDriverInstance@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:46.148 [Forwarding maximizeCurrentWindow on session a5cafe9d307c3ccbaa9c195a5c9a5b84abafa52e to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1043)
+	at test.BrowserStackTest.initiateDriverInstance(BrowserStackTest.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+06:17:46.214 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:46.214 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:46.214879Z][ TESTHUB ] Batch event successfull!
+
+06:17:46.341 [Surefire test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: test.BrowserStackTest 
+06:17:46.341 [Surefire test-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:46.460 [Surefire test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:46.460 [Surefire test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:46.508 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:46.508 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:46.514 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:46.514 [Surefire test-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:46.515 [Surefire test-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+06:17:46.860 [initiateDriverInstance@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+06:17:46.860 [initiateDriverInstance@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+06:17:46.860 [initiateDriverInstance@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:46.860 [initiateDriverInstance@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:46.875 [Forwarding maximizeCurrentWindow on session 5694f82887a25e38fb8a6dc7bcd57bc9feec2c5b to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1043)
+	at test.BrowserStackTest.initiateDriverInstance(BrowserStackTest.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+06:17:47.241 [Surefire test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: test.BrowserStackTest 
+06:17:47.241 [Surefire test-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:47.283 [test2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:47.331 [test2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:47.333 [test2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:47.448 [test2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:47.448 [test2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:47.465 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.465 [Surefire test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:47.465 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.465 [Surefire test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:47.465 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.465 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.465 [test2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:47.465 [test2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: test.BrowserStackTest 
+06:17:47.465 [test2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:47.476 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.476 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.476 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.476 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.481 [Surefire test-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+06:17:47.548 [test2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:47.548 [test2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:47.560 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.560 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.560 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.560 [test2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.565 [test2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+06:17:47.598 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:47.598 [closeBrowser@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:47.698 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:47.698 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:47.731 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.731 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.731 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:47.731 [closeBrowser@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:47.731 [closeBrowser@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:47.731 [closeBrowser@2] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+06:17:48.040 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2053
+
+06:17:48.040 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 6
+
+06:17:48.040 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 11026
+06:17:48.334 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:48.334 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:48.334159100Z][ TESTHUB ] Batch event successfull!
+
+06:17:48.465 [test2@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:48.514 [test2@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:48.514 [test2@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:48.754 [test2@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:48.754 [test2@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:48.757 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:48.757 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:48.757 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:48.757 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:48.757 [test2@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:48.757 [test2@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: test.BrowserStackTest 
+06:17:48.757 [test2@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:48.925 [test2@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:48.957 [test2@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:48.998 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:48.998 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:48.998 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:48.998 [test2@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:48.998 [test2@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+06:17:49.050 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:49.050 [closeBrowser@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:49.200 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:49.200 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:49.228 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:49.298 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:49.308 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:49.308 [closeBrowser@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:49.308 [closeBrowser@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:49.308 [closeBrowser@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+06:17:49.675 [test1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:17:49.827 [test1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:49.827 [test1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:49.923 [test1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:49.923 [test1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:49.964 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:49.964 [closeBrowser@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:50.020 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:50.020 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:50.020 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:50.020 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:50.020 [test1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:50.020 [test1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: test.BrowserStackTest 
+06:17:50.020 [test1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:50.065 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2017
+
+06:17:50.065 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 6
+
+06:17:50.075 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 9152
+06:17:50.234 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:50.236 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:50.236 [closeBrowser@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:50.258 [test1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:50.258 [test1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:50.274 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:50.346 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:50.348 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:50.348 [test1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:50.348 [test1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+06:17:50.399 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:50.399 [closeBrowser@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:50.550 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:50.550 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:50.558 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:50.558 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:50.558 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:17:50.558 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:17:50.558 [closeBrowser@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:50.558 [closeBrowser@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+06:17:50.590 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:50.590 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:50.590301600Z][ TESTHUB ] Batch event successfull!
+
+06:17:51.365 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:51.365 [closeBrowser@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:51.556 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:51.556 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:51.556 [closeBrowser@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:52.598 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:17:52.598 [closeBrowser@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:52.744 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:52.744 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:52.744 [closeBrowser@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:17:52.783 [initiateDriverInstance@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:17:52.783 [initiateDriverInstance@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:17:52.895 [initiateDriverInstance@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:17:52.895 [initiateDriverInstance@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:17:52.895 [initiateDriverInstance@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:17:53.739 [initiateDriverInstance@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:53.739 [initiateDriverInstance@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 62
+06:17:53.739 [initiateDriverInstance@1] DEBUG c.b.selenium.SeleniumHandler - Quitting webdriver: com.browserstack.config.TestNgCurrentRemoteWebdriver@3ab3dea0
+06:17:53.739 [initiateDriverInstance@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+06:17:53.754 [initiateDriverInstance@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+06:17:53.980 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3905
+
+06:17:53.981 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 6
+
+06:17:53.982 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 7666
+06:17:54.283 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:17:54.283 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:47:54.283159200Z][ TESTHUB ] Batch event successfull!
+
+06:17:58.024 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4043
+
+06:18:02.011 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3986
+
+06:18:04.051 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2040
+
+06:18:06.092 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2041
+
+06:18:09.976 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3884
+
+06:18:12.931 [initiateDriverInstance@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+06:18:12.931 [initiateDriverInstance@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+06:18:12.931 [initiateDriverInstance@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:12.931 [initiateDriverInstance@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:12.942 [Forwarding maximizeCurrentWindow on session c0f147c16a2eeb2cba43fa85b8f5b9ab651f4ee5 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1043)
+	at test.BrowserStackTest.initiateDriverInstance(BrowserStackTest.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+06:18:13.548 [Surefire test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: test.BrowserStackTest 
+06:18:13.548 [Surefire test-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:18:13.751 [Surefire test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:18:13.759 [Surefire test-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:18:13.831 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:13.831 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:13.831 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:13.831 [Surefire test-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:13.847 [Surefire test-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+06:18:13.974 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+06:18:13.974 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+06:18:13.974 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2067
+06:18:14.277 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:18:14.280 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:48:14.280816Z][ TESTHUB ] Batch event successfull!
+
+06:18:15.979 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+06:18:17.884 [test2@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+06:18:17.986 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2007
+
+06:18:17.998 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+06:18:18.000 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 215
+06:18:18.003 [test2@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:18:18.003 [test2@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:18:18.176 [test2@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:18:18.176 [test2@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:18:18.274 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:18:18.274 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:48:18.274131800Z][ TESTHUB ] Batch event successfull!
+
+06:18:18.304 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:18.304 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:18.304 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:18.304 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:18.304 [test2@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:18:18.304 [test2@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: test.BrowserStackTest 
+06:18:18.304 [test2@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:18:18.650 [test2@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:18:18.650 [test2@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:18:18.650 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:18.650 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:18.650 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:18.650 [test2@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:18.778 [test2@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+06:18:18.823 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: test.BrowserStackTest 
+06:18:18.823 [closeBrowser@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:18:19.019 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:18:19.019 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:18:19.019 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:19.019 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:19.019 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+06:18:19.019 [closeBrowser@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+06:18:19.019 [closeBrowser@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+06:18:19.019 [closeBrowser@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+06:18:21.286 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: test.BrowserStackTest 
+06:18:21.286 [closeBrowser@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, TestClass :: test\BrowserStackTest
+06:18:21.365 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\., Normalized Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins, File.Separator :: \
+06:18:21.365 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStackWithJenkins\src\test\java\test\BrowserStackTest.java, Absolute Path :: C:\Users\karth\eclipse-workspace\BrowserStackWithJenkins\.., Normalized Path :: C:\Users\karth\eclipse-workspace 
+06:18:21.365 [closeBrowser@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+06:18:21.980 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3994
+
+06:18:21.980 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+06:18:21.980 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 7197
+06:18:22.249 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:18:22.281 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-22T00:48:22.281150600Z][ TESTHUB ] Batch event successfull!
+
+06:18:22.335 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+06:18:22.337 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+06:18:22.337 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-22T00:48:22.337044400Z][ OBSERVABILITY ] Processing stop observability
+06:18:22.337 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+06:18:22.337 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/5nj30k6z06lxghxrwjwsttpmajtfamejvvftlwwn/stop with request size 65
+06:18:22.565 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+06:18:22.565 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+06:18:26.490 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+06:18:26.490 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+06:18:26.490 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+06:18:26.505 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+06:18:26.663 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"mwqXXMNyWFzcpeJYZqaM","userName":"aishwaryakandave_osuKTX-jenkins","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"2c10b681-1c56-4909-b7c5-ff51379b9478","buildIdentifier":"null","testhub_uuid":"5nj30k6z06lxghxrwjwsttpmajtfamejvvftlwwn","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"Aishwarya","measures":{"local:start":11006,"sdk:setup":20033,"local:stop":3925},"productUsage":{"testObservability":{"buildHashedId":"5nj30k6z06lxghxrwjwsttpmajtfamejvvftlwwn","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":12,"triggeredCount":12,"failedCount":0},"finished":{"triggeredCount":12,"failedCount":0,"errors":[],"sentCount":12},"passed":{"errors":[],"sentCount":12,"triggeredCount":12,"failedCount":0}},"logEvents":{"errors":[],"sentCount":54,"triggeredCount":54,"failedCount":0,"log":{"errors":[],"sentCount":54,"triggeredCount":54,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":6,"triggeredCount":6,"failedCount":0},"finished":{"triggeredCount":6,"failedCount":0,"errors":[],"sentCount":6},"passed":{"errors":[],"sentCount":6,"triggeredCount":6,"failedCount":0}},"batchEvents":{"triggeredCount":11,"failedCount":0,"errors":[],"sentCount":11},"cbtSessionEvents":{"errors":[],"sentCount":0,"triggeredCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"AUTO","browserStackLocalOptions":{"localIdentifier":"22_Sept_616_Aishwarya_C9vd","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"serenityOverridePlugin":false,"skipSessionStatus":false},"platforms":[{"device":null,"browser":"Chrome","os":"Windows","browserVersion":"120.0","capabilities":{},"platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"osVersion":"10","platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"device":null,"browser":"Firefox","os":"Windows","browserVersion":"latest","capabilities":{},"platformCaps":{"os":"Windows","osVersion":11,"browserVersion":"latest","browserName":"Firefox"},"osVersion":"11","platformString":"Windows, 11, Firefox, latest","customVariables":"****"},{"device":null,"browser":"Edge","os":"OS X","browserVersion":"latest","capabilities":{},"platformCaps":{"os":"OS X","osVersion":"Sequoia","browserVersion":"latest","browserName":"Edge"},"osVersion":"Sequoia","platformString":"OS X, Sequoia, Edge, latest","customVariables":"****"}],"parallelsPerPlatform":4,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"jenkins-BrowserStack-2","os":"Windows 11","languageVersion":"21.0.4","appiumVersion":"","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":4788,"retransformClasses":4788},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.24.0","language_framework":"java_testng","detectedFramework":"none","testOrchestration":{"abortBuildOnFailure":{"userConfig":{},"enabled":false},"retryTestsOnFailure":{"userConfig":{},"enabled":false}},"detectedSeleniumVersion":"4.23.0","seleniumVersion":"4.23.0"}}
+06:18:27.138 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+06:18:29.856 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.

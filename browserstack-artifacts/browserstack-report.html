@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      p {
+        display: inline;
+      }
+
+      .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .table-container {
+        overflow-x: auto;
+        width: 100%;
+      }
+
+      .new-container {
+        margin-top: 10px;
+        padding: 16px 24px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: -apple-system, BlinkMacSystemFont,
+          Segoe UI, Helvetica, Arial, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, sans-serif;
+        font-size: 14px;
+        /* box-sizing: border-box; */
+      }
+
+      .bstack-table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ccc;
+      }
+
+      .bstack-header {
+        height: 25px;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .bstack-data {
+        height: 20px;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-bottom: 0;
+        border-top: 0;
+      }
+
+      .session-name {
+        text-align: left;
+      }
+
+      .bstack-row:nth-child(even) {
+        background-color: #f5f5f5;
+      }
+
+      .no-report-para {
+        line-height: 1.5;
+        color: #333;
+      }
+
+      .strong-font-custom {
+        font-weight: 700;
+      }
+
+      .bullet-points {
+        list-style: disc;
+      }
+
+      .bullet-item {
+        color: #333;
+        margin: 8px 0;
+        line-height: 1.5;
+        margin-left: 24px;
+      }
+
+      .titlecase-data {
+        text-transform: capitalize;
+      }
+
+      .error-span {
+        font-family: monospace;
+        color: #333;
+        padding: 2px 8px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        font-weight: 400;
+        font-size: 12px;
+        color: #dd4b4b;
+        border-color: #dd4b4b;
+      }
+    </style>
+</head>
+
+<body style="overflow: auto">
+<div
+        class="table-container"
+>
+    <h2 style="padding-top: 10px; padding-bottom: 10px">
+        BrowserStack Test Results
+    </h2>
+    <div id="resultsTab">
+        <div
+                id="resultsNum"
+                style="
+            margin-top: 10px;
+            margin-bottom: 15px;
+            font-size: 15px;
+          "
+        >
+            <p>
+                Displaying&nbsp;
+                <span id="totalResultsCount">6</span>
+                &nbsp;sessions.
+            </p>
+        </div>
+        <div style="border-style: solid;border-width: thin;">
+            <div style="align-self: center;" align="left">
+                <h3 style="text-align: center;">
+                    Build Name: <a href="https://automate.browserstack.com/dashboard/v2/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d" target="_blank">jenkins-BrowserStack-2</a>
+                </h3>
+            </div>
+        </div>
+        <table border="1" class="bstack-table">
+            <tr class="bstack-row">
+                <th class="bstack-header">Name</th>
+                <th class="bstack-header">Status</th>
+                <th class="bstack-header">REST API</th>
+                <th class="bstack-header">Browser/Device</th>
+                <th class="bstack-header">OS</th>
+                <th class="bstack-header">Duration</th>
+                <th class="bstack-header">Created At</th>
+            </tr>
+            <tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d/sessions/c0f147c16a2eeb2cba43fa85b8f5b9ab651f4ee5?auth_token=e7caf160a45ed63b68bc34a7a7b28afce62d1d40944bd9bd4b6081cf0b84c65e" target="_blank">test.BrowserStackTest-test2</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Firefox 130.0</td> <td align="center" class="bstack-data">Windows 11</td> <td align="center" class="bstack-data">26</td> <td align="center" class="bstack-data">22 Sept 2024, 00:47 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d/sessions/a5cafe9d307c3ccbaa9c195a5c9a5b84abafa52e?auth_token=e96d5dbe3aee81cb66454e9dff037b479ec0add3ec65a9a2783ea8fe53e68e09" target="_blank">test.BrowserStackTest-test2</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Chrome 120.0</td> <td align="center" class="bstack-data">Windows 10</td> <td align="center" class="bstack-data">9</td> <td align="center" class="bstack-data">22 Sept 2024, 00:47 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d/sessions/6c6f343d7d611bd9e2a431594eda728d81319b3a?auth_token=46bc68fc7795d6e9207fd25fa81845a0bcc5e111a45818edb3c38c684fedbaf8" target="_blank">test.BrowserStackTest-test2</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Edge 128.0</td> <td align="center" class="bstack-data">OS X Sequoia</td> <td align="center" class="bstack-data">11</td> <td align="center" class="bstack-data">22 Sept 2024, 00:47 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d/sessions/6dab53b1ff02bbb6fa6c4667db077529f2c13cd5?auth_token=637ae3de837675b86fae4155763de9c1b6c9b2f7d492dcf01edd20f454178087" target="_blank">test.BrowserStackTest-test1</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Chrome 120.0</td> <td align="center" class="bstack-data">Windows 10</td> <td align="center" class="bstack-data">13</td> <td align="center" class="bstack-data">22 Sept 2024, 00:47 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d/sessions/5c581e7809eb185cba11830d696782d1b030bb83?auth_token=a1dd6d234df7656ae84c0cb2aa4dcbff2c84590a5cdb32c0feec475e729c8321" target="_blank">test.BrowserStackTest-test1</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Edge 128.0</td> <td align="center" class="bstack-data">OS X Sequoia</td> <td align="center" class="bstack-data">10</td> <td align="center" class="bstack-data">22 Sept 2024, 00:47 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/9ab01f93816eb21fcc59eed66770cb8a75b15f5d/sessions/5694f82887a25e38fb8a6dc7bcd57bc9feec2c5b?auth_token=8bb8e15ba9f8015388d4f1257d23fc6f109073d9220a690c7df905cbfb20ee29" target="_blank">test.BrowserStackTest-test1</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Firefox 130.0</td> <td align="center" class="bstack-data">Windows 11</td> <td align="center" class="bstack-data">27</td> <td align="center" class="bstack-data">22 Sept 2024, 00:47 UTC</td> </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

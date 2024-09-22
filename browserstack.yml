@@ -1,0 +1,26 @@
+userName: aishwaryakandave_osuKTX
+accessKey: mwqXXMNyWFzcpeJYZqaM
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Edge
+    browserVersion: latest
+parallelsPerPlatform: 4
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+testObservability: true
+networkLogs: true
+consoleLogs: info
+percy: false
+percyCaptureMode: auto

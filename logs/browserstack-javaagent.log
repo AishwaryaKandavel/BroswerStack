@@ -1,0 +1,30 @@
+05:07:54.504 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.0
+05:07:54.508 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+05:07:54.736 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+05:07:54.740 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\karth\newWorkspace\BrowserStackIntegrationJenkins\browserstack.yml
+05:07:54.800 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+05:07:54.808 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+05:07:55.296 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+05:07:58.280 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+05:07:59.603 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+05:08:06.397 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+05:09:48.251 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/h9khzfoz0n0f5jmj8knon7zfeincpfy9sepx0nzo to view build report, insights, and many more debugging information all at one place!
+
+05:09:48.253 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+05:09:53.391 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/42fa5999c7f6a660666ec66373c4a9f282b7ccb6
+05:09:53.391 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+05:15:34.175 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.0
+05:15:34.179 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+05:15:34.421 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\karth\\newWorkspace\\BrowserStackIntegrationJenkins, localrepository=C\:\\Users\\karth\\.m2\\repository}
+05:15:34.424 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\karth\newWorkspace\BrowserStackIntegrationJenkins\browserstack.yml
+05:15:34.474 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+05:15:34.483 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+05:15:34.793 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+05:15:38.722 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+05:15:40.032 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+05:15:45.785 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+05:16:44.412 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nhsmr9cqrqtxn1ts8qhvo9vhy3v0nyw6frz5jxmd to view build report, insights, and many more debugging information all at one place!
+
+05:16:44.412 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+05:16:50.449 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/796ee3d1a933b9c12a1391c03eae909a20276234
+05:16:50.449 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

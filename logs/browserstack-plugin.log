@@ -1,0 +1,14 @@
+05:04:02.075 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+05:04:02.095 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=mwqXXMNyWFzcpeJYZqaM, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=aishwaryakandave_osuKTX, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.8]
+05:04:02.099 [Worker-46: Launching mavenrun-461a5559-765d-4a07-98a2-ad3b794ad3bc] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+05:05:57.733 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+05:05:57.733 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:05:57.737 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStackIntegrationJenkins
+05:05:57.737 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+05:05:57.737 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:05:57.737 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStackIntegrationJenkins
+05:07:53.578 [Worker-54: Launching BrowserStackIntegrationJenkins_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+05:07:53.579 [Worker-54: Launching BrowserStackIntegrationJenkins_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+05:07:53.581 [Worker-54: Launching BrowserStackIntegrationJenkins_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+05:07:53.582 [Worker-54: Launching BrowserStackIntegrationJenkins_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+05:15:26.773 [Worker-61: Launching Executing test in C__Users_karth_newWorkspace_BrowserStackIntegrationJenkins] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
